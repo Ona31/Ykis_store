@@ -1,7 +1,5 @@
 import { GiCubeforce } from "react-icons/gi"; 
 import { IoMdAppstore } from "react-icons/io"; 
-import { HiOutlineShoppingBag } from "react-icons/hi"; 
-import { HiShoppingBag } from "react-icons/hi"; 
 import { CgShoppingBag } from "react-icons/cg"; 
 //la nave bare componente
 //-----------------------------
@@ -26,8 +24,8 @@ export default function  NavComponent(){
 
     return(
        <>
-       <header className=" flex justify-between fixed w-full py-2 px-24 bg-[var(--nor)] shadow-sm items-center">
-         <div className="flex"> <h1 className="text-2xl font-bold  text-[var(--text)]"> <span className="text-[var(--pr)]">KIS</span> store</h1></div>
+       <header className=" flex z-10 justify-between fixed w-full py-2 px-24 bg-[var(--nor)] shadow-sm items-center">
+         <div className="flex"> <h1 className="text-2xl font-bold  text-[var(--text)]"> <span className="text-[var(--pr)]">YKIS</span> store</h1></div>
         <nav className="flex ">
          <ul className="flex gap-8">
  {naveList.map((nav,index) =>(
@@ -41,7 +39,7 @@ export default function  NavComponent(){
        <div className="flex items-center gap-4">
         <CgShoppingBag className="text-2xl" />
         
-         <Btn href={""} desc={"Commandez!"} style={"py-2 px-3 bg-[var(--pr)] text-white  rounded-md"}/>
+         <Btn href={""} desc={"Nous contacter!"} style={"py-2 px-3 bg-[var(--pr)] text-white  rounded-md"}/>
        </div>
        </header>
        

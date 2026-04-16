@@ -3,16 +3,20 @@
 :root{
     --bg-pr:#fbfbfb;
     --pr:#4f25cf;
-    --sec:#d8d8f0;
+    --sec:#d8d8f055;
     --acc:#c4c4c4;
     --text:#181818;
-    --text-acc:#404040;
+    --text-acc:#676666c3;
     --nor:#ffffff;
-    --shadow: rgba(0,0,0,0.1);
+    --shadow: rgb(233, 228, 228);
 }
 
 
 
 body{
     background-color: var(--bg-pr);
+}
+
+.shadow-c{
+    box-shadow: 0 0 20px var(--shadow);
 }
