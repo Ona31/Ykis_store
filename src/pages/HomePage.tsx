@@ -7,8 +7,8 @@ import ZoneTxt from "../Components/child/ZoneText";
 import CardAbout from "../Components/parents/CardAbout";
 import Formul from "../Components/parents/Formulaire";
 import AllSection from "../Components/parents/Sections";
-import { carAbout } from "../data/dataAbout";
-import { servicesData } from "../data/dataService";
+import { carAbout, type AboutType } from "../data/dataAbout.ts";
+import { servicesData, type ServiceType } from "../data/dataService.ts";
 
 export default function HomePage() {
   return (
@@ -87,7 +87,7 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          {carAbout.map((item, index) => {
+          {carAbout.map((item:AboutType, index: number) => {
             const Icon = item.icon;
 
             return (
@@ -134,7 +134,7 @@ export default function HomePage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {servicesData.map((service, index) => {
+            {servicesData.map((service:ServiceType, index:number) => {
               const Icon = service.icon;
 
               return (
@@ -155,7 +155,7 @@ export default function HomePage() {
                   </p>
 
                   <ul className="space-y-2">
-                    {service.points.map((point, i) => {
+                    {service.points.map((point, i:number) => {
                       const CheckIcon = point.icon;
 
                       return (

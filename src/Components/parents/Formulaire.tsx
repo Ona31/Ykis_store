@@ -12,7 +12,7 @@ export default function Formul(){
           <Input type={"text"} plach={"Enter your name"} style={""} name={"nom"}/>
           <Input type={"Email;"} plach={"Enter your name"}  style={""} name={"email"} />
           <Input type={"Oject"} plach={"Enter your name"}  style={""} name={"oject"}/>
-          <TextArea/>
+          <TextArea name=""/>
           <Btn
                       href={""}
                       desc={"Envoyer"}

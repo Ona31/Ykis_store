@@ -1,4 +1,11 @@
+import type { IconType } from "react-icons";
 import { FaLaptop, FaTools, FaHeadset, FaTruck } from "react-icons/fa";
+
+export type AboutType = {
+  title: string;
+  desc: string;
+  icon: IconType;
+};
 
 export const carAbout = [
   {

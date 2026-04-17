@@ -1,4 +1,14 @@
+import type { IconType } from "react-icons";
 import { FaShoppingCart, FaTools, FaHandsHelping, FaCheckCircle } from "react-icons/fa";
+export type ServiceType = {
+  title: string;
+  desc: string;
+  icon: IconType;
+  points: {
+    text: string;
+    icon: IconType;
+  }[];
+};
 
 export const servicesData = [
   {

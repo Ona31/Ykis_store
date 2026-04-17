@@ -1,5 +1,4 @@
-import { GiCubeforce } from "react-icons/gi"; 
-import { IoMdAppstore } from "react-icons/io"; 
+
 import { CgShoppingBag } from "react-icons/cg"; 
 //la nave bare componente
 //-----------------------------
