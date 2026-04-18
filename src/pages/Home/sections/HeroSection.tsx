@@ -9,11 +9,11 @@ export default function HeroSection(){
          <AllSection
         id={"Home"}
         style={
-          " md:flex w-full md:h-screen bg-[url('/bgd1.jpg')] md:bg-[url('/bgd.jpg')] bg-cover bg-top md:items-center md:p-24 pb-20 pr-8 pl-8 pt-50"
+          " md:flex w-full md:h-screen bg-[url('/bgd1.jpg')] md:bg-[url('/bgd.jpg')] bg-cover bg-top md:items-center md:p-24 pb-20 pr-8 pl-8 pt-30"
         }
       >
         <ZoneTxt>
-          <h1 className="font-extralight md:text-8xl text-center md:text-lefttext-center md:text-left text-6xl text-[var(--bg-pr)]">
+          <h1 className="font-extralight md:text-8xl text-center md:text-lefttext-center md:text-left text-5xl text-[var(--bg-pr)]">
             Welcome to <br />YKIS Store
           </h1>
 
