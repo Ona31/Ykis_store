@@ -12,19 +12,19 @@ export default function AboutSection(){
                   "grid md:grid-cols-2 grid-cols-1 gap-18 w-full md:h-screen bg-[var(--br-pr)] py-8 md:px-24 md:py-20"
                 }
               >
-                <div className="bloc  bg-[var(--nor)] md:shadow-c p-12">
-                  <h2 className="font-extralight md:text-5xl text-4xl text-[var(--text)] whitespace-nowrap">
+                <div className="bloc  bg-[var(--nor)] md:shadow-c p-8 md:p-12">
+                  <h2 className="font-extralight md:text-5xl text-4xl text-center md:text-start  text-[var(--text)] whitespace-nowrap">
                     Why Choose us
                   </h2>
         
-                  <p className=" font-light text-xl text-[var(--text-acc)] my-8">
+                  <p className=" font-light text-center md:text-start  text-xl text-[var(--text-acc)] my-8">
                     YKIS Store vous propose des équipements informatiques performants,
                     durables et adaptés à tous vos besoins, que vous soyez étudiant,
                     professionnel ou particulier.
                   </p>
         
                   <div className="flex break-words">
-                    <p className="">
+                    <p className=" text-center md:text-start text-[var(--text)] font-light text-md">
                       Nous mettons à votre disposition une large gamme d’ordinateurs et
                       d’accessoires soigneusement sélectionnés pour leur qualité et leur
                       performance. Notre objectif est de vous offrir des solutions
