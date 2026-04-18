@@ -15,7 +15,7 @@ import HomePage from "./pages/Home/HomePage";
 function App(){
   return(
     <>
-     <NavComponent />
+     <NavComponent/>
      <HomePage/>
      <Footer/>
     </>

@@ -8,22 +8,22 @@ export default function ServiceSection(){
           <AllSection
         id={"Services"}
         style={
-          "flex flex-cols w-full  bg-[url('/bg7.jpg')] bg-cover bg-top items-center"
+          "flex flex-cols w-full  bg-[url('/bg7.jpg')] bg-cover bg-top items-center "
         }
       >
-        <div className="flex flex-col w-full h-full backdrop-blur-3xl items-center px-24 py-18">
+        <div className="flex flex-col w-full h-full backdrop-blur-3xl items-center p-8 md:px-24 md:py-18">
 
-          <h2 className="font-extralight text-5xl mb-8 text-[var(--nor)] whitespace-nowrap">
+          <h2 className="font-extralight text-3xl md:text-5xl mb-8 text-[var(--nor)] whitespace-nowrap">
             Our Services
           </h2>
 
-          <p className="px-86 text-center font-light text-md text-[var(--nor)] mb-16">
+          <p className="md:px-86 text-center font-light text-md text-[var(--nor)] mb-16">
             YKIS Store est votre partenaire de confiance en solutions informatiques.
             Nous combinons vente, assistance et maintenance pour vous offrir une
             expérience complète et efficace.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 ">
+          <div className="grid md:gap-0 gap-8 grid-cols-1 md:grid-cols-3 ">
             {servicesData.map((service:ServiceType, index:number) => {
               const Icon = service.icon;
 

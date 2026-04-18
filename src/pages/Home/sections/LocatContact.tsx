@@ -10,11 +10,11 @@ export default function LocatConactSection(){
         <AllSection
         id={"LoC"}
         style={
-          "grid grid-cols-2 w-full bg-[var(--bg-pr)] py-18 px-24 gap-30 justify-center"
+          "grid md:grid-cols-2 w-full bg-[var(--bg-pr)] p-8 md:py-18 md:px-24 gap-12 md:gap-30 justify-center"
         }
       >
         <div className="bloc">
-          <h2 className="font-extralight text-5xl mb-8 text-[var(--text)] whitespace-nowrap">
+          <h2 className="font-extralight text-3xl md:text-5xl mb-8 text-[var(--text)] whitespace-nowrap">
             Location / Contact
           </h2>
 

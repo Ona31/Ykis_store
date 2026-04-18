@@ -7,7 +7,7 @@ type Props ={
 
 export default function ZoneTxt({children}:Props){
     return(
-        <div className="bloc p-24 ">
+        <div className="bloc ">
            {children}
         </div>
     )

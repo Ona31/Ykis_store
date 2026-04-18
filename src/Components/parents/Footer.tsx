@@ -5,7 +5,7 @@ import ReseauxSocial from "../child/ReseauxS";
 
 export default  function Footer(){
     return(
-        <div className="grid grid-cols-4 gap-24  deg w-full py-18 px-24 ">
+        <div className="grid md:grid-cols-4 md:gap-24 gap-12 grid-cols-2 deg w-full px-8 py-12 md:py-18 md:px-24 ">
             <div className="bloc">
                 <Logo style={"text-2xl font-bold mb-8 text-[var(--bg-pr)]"} stspan={"text-[var(--bg-pr)]"}/>
                  <h2 className="font-extralight text-3xl text-[var(--nor)] whitespace-nowrap">

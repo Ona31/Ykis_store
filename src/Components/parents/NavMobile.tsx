@@ -8,7 +8,7 @@ import Menu from "../child/Menu";
 import Logo from "../child/Logo";
 
 
-export default function  NavComponent(){
+export default function  NavMobile(){
      // La liste des naviagtions
   
 

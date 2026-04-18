@@ -9,11 +9,11 @@ export default function AboutSection(){
               <AllSection
                 id={"About"}
                 style={
-                  "grid grid-cols-2 gap-18 w-full h-screen bg-[var(--br-pr)] px-24 py-20"
+                  "grid md:grid-cols-2 grid-cols-1 gap-18 w-full md:h-screen bg-[var(--br-pr)] py-8 md:px-24 md:py-20"
                 }
               >
-                <div className="bloc  bg-[var(--nor)] shadow-c p-12">
-                  <h2 className="font-extralight text-5xl text-[var(--text)] whitespace-nowrap">
+                <div className="bloc  bg-[var(--nor)] md:shadow-c p-12">
+                  <h2 className="font-extralight md:text-5xl text-4xl text-[var(--text)] whitespace-nowrap">
                     Why Choose us
                   </h2>
         
@@ -40,7 +40,7 @@ export default function AboutSection(){
                   </div>
                 </div>
         
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-4 md:p-o px-8">
                   {carAbout.map((item:AboutType, index: number) => {
                     const Icon = item.icon;
         
