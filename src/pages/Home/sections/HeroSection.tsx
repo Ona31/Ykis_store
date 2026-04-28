@@ -23,13 +23,11 @@ export default function HeroSection(){
           </h2>
            <ReseauxSocial showname={false} content={"flex my-8 gap-4 md:justify-start justify-center"} div={"flex items-center gap-4"} style={"text-[var(--nor)] text-3xl"} stylen={"text-[var(--nor)]"}/>
           <div className=" flex md:flex-row flex-col gap-4">
-            <Btn
-              href={"/store"}
-              desc={"Voir nos produits"}
-              style={
-                "p-3 bg-[var(--pr)] text-white text-center text-xl font-semibold rounded-md"
-              }
-            />
+           <Btn
+  href="/store"
+  desc="Voir nos produits"
+  style="px-5 py-3 bg-[var(--pr)] text-white text-center font-semibold rounded-md hover:opacity-90 transition"
+/>
             <Btn
               href={""}
               desc={"Nous contacter"}
