@@ -19,7 +19,7 @@ export default function  NavComponent(){
        <header className=" flex z-10 justify-between fixed w-full py-2 px-4 md:px-24 bg-[var(--nor)] shadow-sm items-center">
          <Logo style={"text-2xl font-bold  text-[var(--text)]"} stspan={"text-[var(--pr)]"}/>
         <Menu style={"md:flex hidden gap-8"} stylea={" flex items-center gap-2 text-[var(--text)]  text-md"}/>
-       <div className="flex items-center gap-4">
+       <div className="hidden md:flex items-center gap-4">
         <CgShoppingBag className="text-2xl" />
         
          <Btn href={""} desc={"Nous contacter!"} style={" md:flex hidden py-2 px-3 bg-[var(--pr)] text-white  rounded-md"}/>

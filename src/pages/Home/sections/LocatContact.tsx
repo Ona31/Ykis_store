@@ -1,6 +1,6 @@
 import Maps from "../../../Components/child/Maps";
-import Formul from "../../../Components/parents/Formulaire";
-import AllSection from "../../../Components/parents/Sections";
+import Formul from "../../../Components/layout/Formulaire";
+import AllSection from "../../../Components/layout/Sections";
 
 
 

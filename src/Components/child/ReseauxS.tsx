@@ -15,6 +15,8 @@ type Props = {
     showname :boolean,
 }
 
+
+
 export default function ReseauxSocial({style,stylen,div,content,showname = true}:Props){
     const res = [
         {name:"Whatsapp",urls:"",icon: BsWhatsapp },

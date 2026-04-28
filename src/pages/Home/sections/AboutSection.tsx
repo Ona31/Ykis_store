@@ -1,5 +1,5 @@
-import CardAbout from "../../../Components/parents/CardAbout";
-import AllSection from "../../../Components/parents/Sections";
+import CardAbout from "../../../Components/layout/CardAbout";
+import AllSection from "../../../Components/layout/Sections";
 import { carAbout, type AboutType } from "../../../data/dataAbout";
 
 export default function AboutSection(){

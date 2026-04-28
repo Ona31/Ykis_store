@@ -2,6 +2,7 @@
 // ----------------------------
 
 
+import Footer from "../../Components/layout/Footer.tsx";
 import AboutSection from "./sections/AboutSection.tsx";
 import HeroSection from "./sections/HeroSection.tsx";
 import LocatConactSection from "./sections/LocatContact.tsx";
@@ -20,6 +21,7 @@ export default function HomePage() {
 
       {/* CONTACT */}
       <LocatConactSection/>
+      <Footer/>
     </main>
   );
 }

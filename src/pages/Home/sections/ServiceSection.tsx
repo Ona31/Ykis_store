@@ -1,5 +1,5 @@
 import Btn from "../../../Components/child/Btn";
-import AllSection from "../../../Components/parents/Sections";
+import AllSection from "../../../Components/layout/Sections";
 import { servicesData, type ServiceType } from "../../../data/dataService";
 
 export default function ServiceSection(){

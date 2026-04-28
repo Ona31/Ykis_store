@@ -7,17 +7,22 @@
 //la fonction principale
 //-----------------------------------------------------
 
-import Footer from "./Components/parents/Footer";
-import NavComponent from "./Components/parents/Nav_bar";
+import { Route, Routes } from "react-router-dom";
+
+import NavComponent from "./Components/layout/Nav_bar";
 import HomePage from "./pages/Home/HomePage";
+import StorePage from "./pages/store/StorePage";
 
 
 function App(){
   return(
     <>
      <NavComponent/>
-     <HomePage/>
-     <Footer/>
+    <Routes>
+  <Route path="/" element={<HomePage />} />
+  <Route path="/store" element={<StorePage />} />
+</Routes>
+     
     </>
     
   )
