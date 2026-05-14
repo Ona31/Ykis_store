@@ -30,7 +30,7 @@ export default function  NavComponent(){
        <header className=" flex md:px-0   px-4  z-10 fixed w-full bg-[var(--nor)] shadow-sm items-center">
        
          <div className="flex py-2 w-full md:px-24 justify-between">
-          <Logo style={"text-2xl font-bold left-0 text-[var(--text)]"} stspan={"text-[var(--pr)]  "}/>
+          <Logo style={" flex items-center text-2xl font-bold left-0 text-[var(--text)]"} stspan={"text-[var(--pr)] flex "}/>
         <Menu style={"md:flex hidden items-center gap-8"} stylea={" flex items-center gap-2 text-[var(--text)]  text-md"}/>
         {open_menu && <MenuMobile style={"md:hidden flex gap-8 ease-in-out w-full  right-0 backdrop-brightness-75 mt-8 flex-col bg-[var(--blur)] absolute backdrop-blur-3xl  transform duration-700 ease-out p-4"}  stylea={" flex items-center gap-2 text-[var(--text)]  text-md"}/>}
         
